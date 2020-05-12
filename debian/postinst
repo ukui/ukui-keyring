@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ "$1" = configure ] ; then
+    if [ ! -e /etc/apt/trusted.gpg.d/ukui-keyring.gpg ]; then
+        ln -s /usr/share/keyrings/ukui-keyring.gpg \
+              /etc/apt/trusted.gpg.d/ukui-keyring.gpg
+    fi
+fi

@@ -1,0 +1,14 @@
+Source: ukui-keyring
+Section: misc
+Priority: optional
+Maintainer: handsome_feng <jianfengli@ubuntukylin.com>
+Standards-Version: 3.9.5
+
+Package: ukui-keyring
+Priority: important
+Architecture: all
+Multi-Arch: foreign
+Recommends: gpgv
+Description: GnuPG keys of the Ubuntu Kylin archive
+ The Ubuntu project digitally signs its Release files. This package
+ contains the archive keys used for the Ubuntu Kylin archive.
